@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.said.villefuteeips2017.MyStoreFragment">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:background="#AAA"
+        />
+
+    <TextView
+        android:id="@+id/store_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/avatar"
+        android:layout_alignTop="@+id/avatar"
+        android:textStyle="bold"
+        tools:text="Store Name"
+        />
+
+
+    <TextView
+        android:id="@+id/Store_locality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@+id/store_name"
+        android:layout_below="@+id/store_name"
+        tools:text="ville "
+        />
+    <TextView
+        android:id="@+id/store_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@+id/Store_locality"
+        android:layout_below="@+id/Store_locality"
+        tools:text="Description "
+        />
+
+    <TextView
+        android:id="@+id/Store_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@+id/store_description"
+        android:layout_below="@+id/store_description"
+        tools:text="telephone "
+        />
+    <LinearLayout
+        android:id="@+id/manageLayout"
+        android:layout_width="180dp"
+        android:layout_height="58dp"
+        android:layout_alignLeft="@+id/store_description"
+        android:layout_below="@+id/store_name"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/itemsBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="Items"
+            android:background="#e6e6e6"/>
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:background="#e6e6e6"/>
+
+
+        <Button
+            android:id="@+id/closeBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.4"
+            android:text="X"
+            android:background="#ffe6e6"/>
+    </LinearLayout>
+</RelativeLayout>

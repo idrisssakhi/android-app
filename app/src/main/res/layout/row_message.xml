@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.said.villefuteeips2017.MyMessagesFragment">
+
+    <TextView
+        android:id="@+id/message_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        tools:text="Item Name"
+        android:layout_marginStart="10dp" />
+
+
+    <TextView
+        android:id="@+id/message_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@+id/message_sender"
+        android:layout_below="@+id/message_sender"
+        tools:text="category "
+        android:layout_alignStart="@+id/message_sender" />
+    <TextView
+        android:id="@+id/message_storeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@+id/message_content"
+        android:layout_below="@+id/message_content"
+        tools:text="ville "
+        android:layout_alignStart="@+id/message_content" />
+
+
+</RelativeLayout>

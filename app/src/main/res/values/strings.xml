@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">VilleFuteeIPS2017</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="mapKey">AIzaSyBQH1DgBUcIXLiHSnmwJw2Fxdd3V5neLeA</string>
+    <string name="title_activity_map_home">Map</string>
+    <string name="sign_in_later">Sign in Later</string>
+    <string name="password">Password</string>
+    <string name="entrer_un_password">Entrer un password</string>
+    <string name="title_activity_commerce">Commerçant</string>
+    <string name="title_activity_client">Client</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="localisation">localisation</string>
+    <string name="nom_du_magasin">Nom du magasin</string>
+    <string name="numero_de_tel">Numero de tel</string>
+    <string name="entrer_la_description_de_vos_services">entrer la description de vos services</string>
+    <string name="entrer_l_adresse_du_magasin">entrer l\'adresse du magasin</string>
+    <string name="code_postal">Code postal</string>
+    <string name="ville">ville</string>.
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="ajouter_un_magasin">Ajouter un magasin</string>
+    =======
+    <string name="nom_item">Nom de l\'article</string>
+    <string name="item_price">Prix</string>
+    <string name="item_description">Description</string>
+    <string name="todo">TODO</string>
+    <string name="envoyer_un_message">Envoyer un message</string>
+
+
+    <string-array name="store_category">
+        <item>SELECTIONNER UNE CATEGORIE</item>
+        <item>ELECTROMENAGER</item>
+        <item>PRET A PORTER</item>
+        <item>VOITURE</item>
+        <item>MULTEMEDIA</item>
+        <item>RESTAURATION</item>
+        <item>GRAND SURFACE</item>
+        <item>JARDINAGE</item>
+
+    </string-array>
+    <string-array name="store_horaire">
+        <item>00</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+</resources>

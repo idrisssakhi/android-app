@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "1762544827",
+    "firebase_url": "https://villefuteeips2017.firebaseio.com",
+    "project_id": "villefuteeips2017",
+    "storage_bucket": "villefuteeips2017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1762544827:android:9a8d47cccb3a4c36",
+        "android_client_info": {
+          "package_name": "com.example.said.villefuteeips2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1762544827-d89ajup0o945co8gij1q9s4e0bphn903.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.said.villefuteeips2017",
+            "certificate_hash": "2d742db190a7272d1cadadfdd0db06a5690e9a7c"
+          }
+        },
+        {
+          "client_id": "1762544827-lm3i9mf9nvjc6ptm3ei7h4qnkd1bpul0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH7Sn8VPHc1LN29Sevw7OqPH1NIYbMFA8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
